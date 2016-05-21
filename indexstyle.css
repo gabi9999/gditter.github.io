@@ -17,14 +17,14 @@ img
 h1
 	{
 		line-height: 1.8;
-		width:300px;
+		width:500px;
     	margin: auto;
 		color:white;
 		font-size(500);
 	}
 h2
 	{
-		text-decoration: underline;
+		text-decoration: overline;
 		width:300px;
     	margin: auto;
 		color:#ff99cc;
@@ -58,16 +58,16 @@ h3
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #ff6699;
+  background-color: #ff0066;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #660033;
 }
 
-.button:hover {background-color: #ff6699}
+.button:hover {background-color: #ff0066}
 
 .button:active {
-  background-color: #ff6699;
+  background-color: #ff0066;
   box-shadow: 0 5px #660033;
   transform: translateY(4px);
 }
